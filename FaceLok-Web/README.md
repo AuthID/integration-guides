@@ -5,6 +5,8 @@
 
 1. [Overview](./pages/overview.md)
 2. [Customer Integration](./pages/customer-integration.md)
+3. [FaceLok Web Container Configuration](./pages/flweb-container-config.md)
+4. [Bioweb Application IFrame Integration](./page/../pages/bioweb-iframe-integration.md)
 
 ## Changelog
 
