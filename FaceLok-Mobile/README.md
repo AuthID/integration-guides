@@ -4,6 +4,16 @@
 ## Table of Contents
 
 - [Release Notes](./pages/releasenotes.md)
+- [Supported Platforms](./pages/platforms.md)
+- [Overview](./pages/overview.md)
+- [Using the SDK](./pages/usingsdk.md)
+    - [Project Setup](./pages/projectsetup.md)
+    - [Interfaces](./pages/interfaces.md)
+    - [Liveness Testing](./pages/livenesstesting.md)
+    - [Using FaceLokInterface](./pages/usingfacelokint.md)
+    - [Callbacks](./pages/callbacks.md)
+    - [Working with Images](./pages/images.md)
+    - [Camera Preview View](./pages/camerapreviewview.md)
 
 ## Terms and Conditions
 
