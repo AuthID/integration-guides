@@ -23,9 +23,9 @@ By using this SDK you agree to our terms and conditions as laid out on our [webs
 
 FaceLok SDK is a frictionless approach to biometric identification. This SDK provides a seemless process for performing a liveness test, capturing a selfie, and processing an identity transaction using Ipsidy's identity platform. There are many use cases for this SDK:
 
-    Biometric Identification
-    Transaction Authorization
-    Multi-Factor Authentication (MFA)
+- Biometric Identification
+- Transaction Authorization
+- Multi-Factor Authentication (MFA)
 
 This SDK is a cross-platform mobile solution which is available for both iOS and Android.
 
