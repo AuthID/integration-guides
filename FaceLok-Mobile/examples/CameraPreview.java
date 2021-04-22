@@ -12,9 +12,12 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     private static final String TAG = "faceloktest";
     private Camera mCamera = null;
     private SurfaceHolder mHolder;
+    private FacelokImpl mFacelok;
 
-    public CameraPreview(Context context, Camera cam) {
+    public CameraPreview(Context context, Camera cam, FacelokImpl facelok) {
         super(context);
+
+        mFacelok = facelok;
 
         mCamera = cam;
         Log.d(TAG, "CameraPreview: Created ... camera is: " + cam);
@@ -31,9 +34,11 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     }
 
     private void startPreview() {
+        stopPreview();
         try {
             Log.i(TAG, "Attaching camera and starting preview");
             mCamera.setPreviewDisplay(mHolder);
+            mCamera.resetCallback(); // NOTE: (FLMSDK-91) this is temporary undocumented function that is needed to fix a camera timing issue.  It will be fixed and not be needed in the future.
             mCamera.startPreview();
         } catch (IOException e) {
             Log.e(TAG, "Error setting camera preview: " + e.getMessage());
