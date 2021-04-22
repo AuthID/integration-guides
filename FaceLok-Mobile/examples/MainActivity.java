@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
     private class FacelokCallback extends com.ipsidy.faceloksdk.FacelokCallback {
         @Override
-        public void detectionComplete(Bitmap photo) {
+        public void detectionComplete(Bitmap photo, String imageInfo) {
             mInterface.log(LoggerLevel.INFO, "Got a detection complete event with bmp size of " + (photo.getWidth() * photo.getHeight()));
 
             // we call reset to start over and start detecting faces again
