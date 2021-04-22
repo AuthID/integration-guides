@@ -38,7 +38,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         try {
             Log.i(TAG, "Attaching camera and starting preview");
             mCamera.setPreviewDisplay(mHolder);
-            mCamera.resetCallback(); // NOTE: (FLMSDK-91) this is temporary undocumented function that is needed to fix a camera timing issue.  It will be fixed and not be needed in the future.
+            mFacelok.resetCallback(); // NOTE: (FLMSDK-91) this is temporary undocumented function that is needed to fix a camera timing issue.  It will be fixed and not be needed in the future.
             mCamera.startPreview();
         } catch (IOException e) {
             Log.e(TAG, "Error setting camera preview: " + e.getMessage());
