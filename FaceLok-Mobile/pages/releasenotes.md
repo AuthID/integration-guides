@@ -3,6 +3,7 @@
 
 <!-- TOC -->
 - [FaceLok Mobile - Release Notes](#facelok-mobile---release-notes)
+  - [Version 1.8.0](#version-180)
   - [Version 1.7.0](#version-170)
   - [Version 1.6.0](#version-160)
   - [Version 1.5.3](#version-153)
@@ -22,6 +23,19 @@
   - [Version 1.1](#version-11)
   - [Version 1.0](#version-10)
 <!-- /TOC -->
+
+## Version 1.8.0
+
+XX/Jun/21
+
+Changes:
+
+    Added 2 new interface calls for getting additional selfies from FaceLok.
+        scoredImage() and scoredImageCount() are used to get other lower scoring selfie images from FaceLok.
+        The image with index 0 will be the best selfie that was delivered at the end of the liveness process.
+        At this time FaceLok only stores 5 selfie images total, all can be obtained via scoredImage().
+    Removed Doxygen style documentation.  All docs are now on github in our Integration Guides project.
+    Updated iOS example in documentation as it was out of date.
 
 ## Version 1.7.0
 
