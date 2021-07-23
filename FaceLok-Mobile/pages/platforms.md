@@ -12,8 +12,6 @@ The SDK supports the following platforms and architectures:
 
 32-bit simulator for iOS is **not** included since any machine newer than 2008 for a mac is 64-bit.
 
-Linux and OSX are able to build desktop versions as well, although a lot of the functionality will be stubbed out since it lacks the hardware required in most cases. Windows will probably work as well since cmake is used to build however it is untested and you would need a posix style compiler like gcc or mingw. It would definitely not work as is with Visual Studio.
-
 ## Xamarin
 
 Xamarin libraries are provided for ios and android as well with all the architectures above supported.

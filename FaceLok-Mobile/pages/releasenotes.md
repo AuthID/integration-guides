@@ -26,7 +26,7 @@
 
 ## Version 1.8.0
 
-XX/Jun/21
+XX/Jul/21
 
 Changes:
 
@@ -34,8 +34,27 @@ Changes:
         scoredImage() and scoredImageCount() are used to get other lower scoring selfie images from FaceLok.
         The image with index 0 will be the best selfie that was delivered at the end of the liveness process.
         At this time FaceLok only stores 5 selfie images total, all can be obtained via scoredImage().
+    Added 2 new interface calls for configuring FaceLok
+        getConfiguration() and setConfiguration()
     Removed Doxygen style documentation.  All docs are now on github in our Integration Guides project.
     Updated iOS example in documentation as it was out of date.
+    Raised required Android SDK level to 21+
+
+**Required Android SDK Level Change**
+
+In anticipation of moving from Camera to Camera X support for android we have raised the minimum SDK level from android-15 to android-21.  The new camera support will be coming in a future version.
+
+**Deprecation Warning:**
+
+The following calls relating to checking image quality with IDComplete backend will be deprecated in the next release.  They will continue to work in 1.8.0 but will be removed to stub functions in 1.9.0.  They will still be callable to not break existing code, however they will return without running the check and report a failure to run the check in the resulting JSON.
+
+    checkingImageQuality callback will be stubbed out in the next version
+    checkPhotoQuality interface will be stubbed out in the next version
+
+Please update your code to not use these functions and instead go directly through your IDComplete interface to check image quality.
+
+By removing these calls we will also be removing the dependency on Poco and OpenSSL which will significantly decrease the framework size, speed up compilation times, and reduce complexity of adding the framework to your apps.
+
 
 ## Version 1.7.0
 
