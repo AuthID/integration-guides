@@ -26,10 +26,17 @@
 
 ## Version 1.8.0
 
-XX/Jul/21
+XX/Aug/21
+
+| Note |
+| :=== |
+| This release contains some potentially breaking changes for compiliation of your existing <= 1.7 code.  These will be marked below in the changelog with a **(B)**. |
 
 Changes:
 
+    (B) Raised required Android SDK level to 21+.
+    (B) Changed android callback class.  All callbacks are now abstract and are required to be defined in your derived callback class.
+    (B) Callback class requires an Activity passed to it's constructor to handle threading.
     Added 2 new interface calls for getting additional selfies from FaceLok.
         scoredImage() and scoredImageCount() are used to get other lower scoring selfie images from FaceLok.
         The image with index 0 will be the best selfie that was delivered at the end of the liveness process.
@@ -38,7 +45,6 @@ Changes:
         getConfiguration() and setConfiguration()
     Removed Doxygen style documentation.  All docs are now on github in our Integration Guides project.
     Updated iOS example in documentation as it was out of date.
-    Raised required Android SDK level to 21+
 
 **Required Android SDK Level Change**
 
