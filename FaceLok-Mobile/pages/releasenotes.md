@@ -37,6 +37,8 @@ Changes:
     (B) Raised required Android SDK level to 21+.
     (B) Changed android callback class.  All callbacks are now abstract and are required to be defined in your derived callback class.
     (B) Callback class requires an Activity passed to it's constructor to handle threading.
+    Added warning if requested resolution is too low for a good liveness test.  Recommended size is now 1280x720.
+    Added logic to flip request resolution if it is given in portrait sizes instead of the default camera sizes (landscape).
     Added 2 new interface calls for getting additional selfies from FaceLok.
         scoredImage() and scoredImageCount() are used to get other lower scoring selfie images from FaceLok.
         The image with index 0 will be the best selfie that was delivered at the end of the liveness process.
