@@ -133,6 +133,7 @@ Alternatively, you can just pass that JSON directly in the facelokParams object 
 | imageStreamIntervalMs | If using the “image-stream” technique integer number represents the desired number of milliseconds that you’d like to stream images at. If you enter 0 then FaceLokJS will attempt to stream images as fast as it can to the FaceLokWeb server. | Integer values >= 0|
 | sourceOperationId | Unique ID of the high-level operation that triggered biometric authentication. This is optional field only required when FaceLok Web backend is configured with “Limits:MaxSessionsPerSourceOperationId” mode and allows backend to implement biometric session limits.  | String |
 | debug | Setting debug to true will allow you to see additional information in the photoImg element. This information includes landmark points from the FaceLokWeb server, and additional metrics | true |
+| deviceType | Type of device you are running on.  Default is Unknown.  Introduced in 1.17.0. | Android, iOS, Desktop, Unknown |
 
 ## Messages
 
