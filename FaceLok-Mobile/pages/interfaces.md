@@ -107,7 +107,7 @@ will need a call to `setActivity()` before `initialized()`.   When done with the
 | initialize() | void | all | Call this to initialize Facelok.  Calling other functions before this will throw exceptions. |
 | shutdown() | void | all | Call this to stop everything and shutdown the Facelok system.  <br>initialize() will need to be called again if you want to restart it. |
 | setCallback(callback: event_callback) | void | all | This function allows you to set an event callback.  <br>This is an object you create derived from EventCallback or FLEventCallback. |
-| start(params: camera_parameters) | void | all | Start the Facelok system with the supplied camera parameters. <br>You will need access to the camera for this. |
+| start(params: camera_parameters) | void | all | Start the Facelok system with the supplied camera parameters. <br>You will need access to the camera for this.  Recommended minimum resolution to request in params is 720p (1280x720).  Going below this may have negative impact on the backend liveness testing with IDComplete. |
 | framesProcessed() | int32 | all | Gives the number of frames processed in the last second. <br>This can be used with a timer to get FPS processed. |
 | log(level: logger_level, message: string) | void | all | Logs a message at a particular `logger_level` using the Facelok logger.  <br>Messages logged this way will show up with the tag "facelok (ext)". <br>The internal logged message will show as "facelok". |
 | stop() | void | all | Stop the camera and the preview.  Does nothing if `start()` was not called first. |

@@ -3,7 +3,7 @@
 
 <!-- TOC -->
 - [FaceLok Mobile - Release Notes](#facelok-mobile---release-notes)
-  - [Version 1.8.0](#version-180)
+  - [Version 2.0.0](#version-200)
   - [Version 1.7.0](#version-170)
   - [Version 1.6.0](#version-160)
   - [Version 1.5.3](#version-153)
@@ -24,12 +24,12 @@
   - [Version 1.0](#version-10)
 <!-- /TOC -->
 
-## Version 1.8.0
+## Version 2.0.0
 
-XX/Aug/21
+04/Aug/21
 
 | Note |
-| :=== |
+| :--- |
 | This release contains some potentially breaking changes for compiliation of your existing <= 1.7 code.  These will be marked below in the changelog with a **(B)**. |
 
 Changes:
@@ -37,7 +37,7 @@ Changes:
     (B) Raised required Android SDK level to 21+.
     (B) Changed android callback class.  All callbacks are now abstract and are required to be defined in your derived callback class.
     (B) Callback class requires an Activity passed to it's constructor to handle threading.
-    Added warning if requested resolution is too low for a good liveness test.  Recommended size is now 1280x720.
+    Added warning if requested resolution is too low for a good liveness test.  Recommended size is now 1280x720 (720p).
     Added logic to flip request resolution if it is given in portrait sizes instead of the default camera sizes (landscape).
     Added 2 new interface calls for getting additional selfies from FaceLok.
         scoredImage() and scoredImageCount() are used to get other lower scoring selfie images from FaceLok.

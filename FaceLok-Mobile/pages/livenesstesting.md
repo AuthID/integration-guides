@@ -23,6 +23,10 @@ There are multiple supported ways to do liveness testing in FaceLok at this time
 - Challenge Response
 - Custom
 
+| Note |
+| :--- |
+| If you are using the IDComplete backend for submitting the final photo, you will want to make sure your requested resolution for the call to `start()` is at least 720p (1280x720).  This is the minimum recommended resolution. |
+
 ### Default
 
 The default method is the same as previous versions (<1.2) of FaceLok SDK.  This basically requires

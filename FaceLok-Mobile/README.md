@@ -37,4 +37,5 @@ For information on release notes and version of the product see [this page](./pa
 
 | Date | Prepared By | Revision History |
 | ---- | ----------- | ---------------- |
+| 08-04-21 | Mike Ryan | Updates for FaceLok 2.0 |
 | 01-15-21 | Mike Ryan | Move documentation to github |
