@@ -63,6 +63,10 @@ Please update your code to not use these functions and instead go directly throu
 
 By removing these calls we will also be removing the dependency on Poco and OpenSSL which will significantly decrease the framework size, speed up compilation times, and reduce complexity of adding the framework to your apps.
 
+Bugs:
+
+    Fixed a few memory leaks that occurred in rare instances.
+
 
 ## Version 1.7.0
 
