@@ -1,7 +1,5 @@
 ![Ipsidy](./images/ipsidy.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 # FaceLok Mobile
 
 FaceLok SDK is a frictionless approach to biometric identification. This SDK provides a seemless process for performing a liveness test, capturing a selfie, and processing an identity transaction using Ipsidy's identity platform. There are many use cases for this SDK:
@@ -24,8 +22,3 @@ With a smile and a selfie, Verified™ delivers mobile facial biometric authenti
 
 - [Documentation](/FaceLok-Web/README.md)
 
-# IDComplete
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-- [Documentation](/IDComplete/README.md)
