@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # Proof/Verified Web - FaceLok Web Container Configuration
 
 FaceLok Web container provides ability to configure some of the behavior settings when running “On-Premises”. Below is the list of supported options listed as environment variables.

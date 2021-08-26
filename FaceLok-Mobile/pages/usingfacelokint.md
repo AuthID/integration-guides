@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # FaceLok Mobile - Using the FaceLok Interface
 
 This section covers using FacelokInterface in your project.  This is the main entry point

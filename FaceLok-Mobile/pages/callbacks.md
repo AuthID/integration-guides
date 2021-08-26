@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # FaceLok Mobile - Callbacks
 
 The SDK will call callback function during events.  The current callbacks are described in [event_callbacks](./interfaces.md#event-callbacks).

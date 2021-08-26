@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # FaceLok Mobile - Supported Platforms
 
 The SDK supports the following platforms and architectures:

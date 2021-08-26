@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # FaceLok Mobile - Interfaces
 
 <!-- TOC -->

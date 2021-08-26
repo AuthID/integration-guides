@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # Proof/Verified Web - Overview
 
 FaceLok Web is an HTML5 based solution that uses a web browser’s camera API to capture a user’s photo and verify liveness.  Liveness is verified using two methods:  

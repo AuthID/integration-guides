@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # FaceLok Mobile - Using the SDK
 
 - [Oveview](./overview.md)

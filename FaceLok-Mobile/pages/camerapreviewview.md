@@ -1,4 +1,4 @@
-![Ipsidy](../../images/ipsidy.png)
+![Ipsidy](../../images/authid.png)
 # FaceLok Mobile - Camera Preview View
 
 If you want to display preview images from the camera, you will need to connect a view
