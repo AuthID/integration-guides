@@ -3,7 +3,6 @@
 
 ## Table of Contents
 
-- [Release Notes](./pages/releasenotes.md)
 - [Overview](./pages/overview.md)
 - [Customer Integration](./pages/customer-integration.md)
 - [FaceLok Web Container Configuration](./pages/flweb-container-config.md)
@@ -13,12 +12,9 @@
 
 This is the revision history for the documentation.  The version and history here pertains to doc changes and does not match the version or revisions of the Proof/Verified Web product.
 
-For information on release notes and version of the product see [this page](./pages/releasenotes.md).
-
 | Date | Prepared By | Revision History |
 | ---- | ----------- | ---------------- |
-| 08-26-2021 | Mike Ryan | Updates release notes |
-| 07-23-2021 | Mike Ryan | Updates release notes and adds deviceType to facelok object parameters |
+| 07-23-2021 | Mike Ryan | Adds deviceType to facelok object parameters |
 | 01-12-2021 | Mike Ryan | Adds release notes page and updates changelog to indicate doc changes not product changes |
 | 01-08-2021 | Mike Ryan | Ported document to markdown for github |
 | 11-16-2020 | Dan Bermender | Added IFrame messages |
